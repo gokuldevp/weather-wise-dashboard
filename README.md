@@ -79,7 +79,7 @@ This project is a **responsive and interactive weather dashboard** that uses the
    - **Latitude** and **Longitude**: Valid numerical coordinates.
    - **Start Date** and **End Date**: Use the date pickers to select a range.
 
-4. View the weather data in both graphical and tabular formats with pagination.
+4. View the weather data in tabular formats with pagination.
 
 ---
 
