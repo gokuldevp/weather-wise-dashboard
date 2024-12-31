@@ -10,3 +10,6 @@ A responsive and interactive dashboard to view historical weather data using the
 
 ## Setup
 1. Clone the repository:
+
+## Deployed link
+https://aesthetic-bavarois-de14d5.netlify.app/

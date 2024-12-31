@@ -38,7 +38,7 @@ const WeatherDataTable = ({ weatherData }) => {
 
   const handleRowsPerPageChange = (event) => {
     setRowsPerPage(Number(event.target.value));
-    setCurrentPage(0); // Reset to first page when changing rows per page
+    setCurrentPage(0);
   };
 
   return (

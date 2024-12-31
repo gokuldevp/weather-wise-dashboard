@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import fetchWeatherData from "../hooks/watherService";
 import WeatherDataTable from "./WeatherDataTable";
+import MyLineChart from "./MyLineChart.js";
 
 const WeatherDashboard = () => {
   const [latitude, setLatitude] = useState("");
@@ -79,7 +80,7 @@ const WeatherDashboard = () => {
   };
   return (
     <div className="container my-4">
-      <h1 className="mb-4 text-center">Weather Dashboard</h1>
+      <h1 className="text-center">Weather Dashboard</h1>
       <div className="row mb-4">
         <div className="col-md-3">
           <input
@@ -129,6 +130,15 @@ const WeatherDashboard = () => {
           <WeatherDataTable weatherData={weatherData} />
         </div>
       )}
+
+      {/* {weatherData && (
+        <div >
+          <MyLineChart weatherData={weatherData} />
+        </div>
+      )} */}
+      {/* <div>
+      <MyLineChart/>
+      </div> */}
     </div>
   );
   
