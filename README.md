@@ -33,21 +33,21 @@ This project is a **responsive and interactive weather dashboard** that uses the
 
 ```plaintext
 .
-├── public/                 # Static assets
-├── src/                    # Source code
-│   ├── components/       # Reusable components
-│   │   ├── WeatherDashboard.js  # Main dashboard component
-│   │   └── WeatherDataTable.js   # Component for displaying data in a table
-│   ├── hooks/            # Custom hooks
-│   │   └── weatherService.js    # API call logic
-│   ├── App.css             # Styling for the App component
-│   ├── App.js              # Root component
-│   ├── index.css           # Global styles
-│   └── index.js            # Entry point
-├── .gitignore             # Files and directories to ignore in Git
-├── README.md              # Project documentation (this file)
-├── package-lock.json      # Auto-generated lockfile for dependencies
-└── package.json           # Project metadata and dependencies
+├── public/
+├── src/                   
+│   ├── components/      
+│   │   ├── WeatherDashboard.js  
+│   │   └── WeatherDataTable.js  
+│   ├── hooks/           
+│   │   └── weatherService.js  
+│   ├── App.css            
+│   ├── App.js              
+│   ├── index.css  
+│   └── index.js           
+├── .gitignore             
+├── README.md              
+├── package-lock.json     
+└── package.json          
 ```
 
 ---
